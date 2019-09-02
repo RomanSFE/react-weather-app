@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/weather-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* My code */
+span.mr-2 i {
+  font-size: 80px;
+  color: #d5e5f2;
+}
+h1.he-text.py-5 {
+  color: #103957;
+}
+h3.details.py-3 {
+  color: #f1eea1;
+  font-size: 31px;
+}
+h5 span {
+  color: #eff1f3;
+}
+h2.city-con.py-2 {
+  color: #e4eea9;
+  font-size: 36px;
+  background: #33322f;
+  opacity: 0.9;
+}
+h1.main-temp.py-2 {
+  color: #15ff5d;
+}
+h3 span.px-3 {
+  color: #15ff5d;
 }
